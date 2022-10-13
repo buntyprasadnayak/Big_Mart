@@ -2,7 +2,7 @@ import numpy as np
 import pickle            # for loading the saved model 
 import streamlit as st   # for creating the web page
 
-loaded_model = pickle.load(open("C:/Users/91788/Downloads/Big_Mart/Big_mart.sav", 'rb'))
+loaded_model = pickle.load(open("/Users/bunty/Downloads/Big_Mart-main/Train.csv", 'rb'))
 
 def Big_mart(input_data):
     
